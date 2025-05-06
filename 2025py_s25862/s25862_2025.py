@@ -1,6 +1,16 @@
 import random
 import sys
 
+#ORIGINAL
+#try:
+#    length = int(input("Enter the sequence length: "))
+#    if length <= 0:
+#        raise ValueError("Length must be a positive integer.")
+#except ValueError as e:
+#    print(f"Invalid input: {e}")
+#    sys.exit(1)
+
+#MODIFIED(added accuracy for length that is a multiple of 3)
 while True:
     length = int(input("Enter the sequence length: "))
     if length <= 0:
